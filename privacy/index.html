@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Glass Clock privacy policy</title>
+<style>
+  :root { color-scheme: light dark; --bg: #ffffff; --text: #1c1c1e; --muted: #5f5f66; --rule: #e3e3e8; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #111214; --text: #f2f2f4; --muted: #a0a0a8; --rule: #2c2d31; } }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 -apple-system, system-ui, "Segoe UI", sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 16px 64px; }
+  h1 { font-size: 30px; line-height: 1.2; margin: 0 0 4px; }
+  h2 { font-size: 20px; margin: 36px 0 8px; padding-top: 20px; border-top: 1px solid var(--rule); }
+  .updated { color: var(--muted); margin: 0 0 24px; }
+  li { margin: 6px 0; }
+  a { color: inherit; }
+</style>
+</head>
+<body>
+<main>
+<h1>Glass Clock privacy policy</h1>
+<p class="updated">Last updated: 25 October 2026</p>
+
+<p>Glass Clock is a clock and photo screensaver for Android TV and Google TV, made by Jack Crofts. This policy explains what information the app uses and where it goes.</p>
+
+<p><strong>In short:</strong> Glass Clock has no accounts, no ads and no analytics. The developer does not receive any information about you. Your settings and photos stay on your TV. To show the weather, the app sends an approximate location to a weather service.</p>
+
+<h2>Information that stays on your TV</h2>
+<ul>
+  <li><strong>Settings</strong> (clock style, language, your chosen town and so on) are saved on your TV only.</li>
+  <li><strong>Photos</strong> you send to the TV are stored on the TV only. Glass Clock does not upload them anywhere.</li>
+  <li><strong>Network status</strong>: the app checks whether the TV is on Wi-Fi or a cable, and the signal strength, to show the network icon. This isn't sent anywhere.</li>
+</ul>
+
+<h2>Weather and location</h2>
+<p>When the temperature is turned on (it can be turned off in Weather settings):</p>
+<ul>
+  <li>The app sends a location to <a href="https://open-meteo.com/">Open-Meteo</a> to get the current weather, today's high and low, and sunrise and sunset times (for night mode). This location is either the town you choose, or the TV's approximate location if you choose <em>Automatic</em>.</li>
+  <li>If you search for a town, the name you type is sent to Open-Meteo to find its location.</li>
+  <li>With <em>Automatic</em> location, the app first asks the TV for its approximate location, using Android's own location service, which is only possible if you allow it. If the TV can't provide one, the app asks <a href="https://www.geojs.io/">GeoJS</a> for an estimate based on your internet connection's IP address.</li>
+  <li>These requests are made directly from your TV over an encrypted connection (HTTPS). Open-Meteo and GeoJS receive your TV's IP address, as any website would. Their own privacy policies apply to their services.</li>
+</ul>
+
+<h2>Sending photos from your phone</h2>
+<p>The "Add photos from your phone" screen starts a small web page on your TV, reachable only on your home network, only with the code shown on screen, and only while that screen is open. Photos go directly from your phone to your TV. They do not pass through the internet or any server.</p>
+
+<h2>Photo albums and USB sticks (optional)</h2>
+<ul>
+  <li>If you add an <strong>iCloud</strong> or <strong>Google Photos</strong> shared album link, the app downloads that album's photos from Apple or Google to show on your TV. Apple's or Google's privacy policy applies to the album.</li>
+  <li>If you choose a <strong>USB stick</strong>, the app reads photos from it on the TV, with your permission.</li>
+</ul>
+
+<h2>Purchases</h2>
+<p>Glass Clock Premium is bought through Google Play. Google handles the payment; the developer never sees your payment details. The app only checks with Google Play whether Premium has been bought on your account.</p>
+
+<h2>Children</h2>
+<p>Glass Clock is not directed at children and does not knowingly collect information from anyone.</p>
+
+<h2>Deleting your information</h2>
+<p>Because nothing is stored outside your TV, uninstalling Glass Clock (or clearing its storage in the TV's settings) removes everything the app has saved, including your photos and settings. Delete individual photos on the "Add photos" page.</p>
+
+<h2>Changes and contact</h2>
+<p>If this policy changes, the new version will be posted on this page with a new date. For questions, contact <a href="mailto:info@jackcrofts.co.uk">info@jackcrofts.co.uk</a>.</p>
+</main>
+</body>
+</html>
